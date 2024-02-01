@@ -1,7 +1,7 @@
 #include "include/SDL.h"
 #include <cmath>
 
-//thanks to https://discourse.libsdl.org/t/query-how-do-you-draw-a-circle-in-sdl2-sdl2/33379
+// thanks to https://discourse.libsdl.org/t/query-how-do-you-draw-a-circle-in-sdl2-sdl2/33379
 void SDL_RenderDrawCircle(SDL_Renderer *renderer, int32_t centreX, int32_t centreY, int32_t radius)
 {
     const int32_t diameter = (radius * 2);
@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
     SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
-    SDL_RenderDrawCircle(renderer, 320,240,100);
+    SDL_RenderDrawCircle(renderer, 320, 240, 100);
     SDL_RenderPresent(renderer);
     SDL_Delay(3000);
 
