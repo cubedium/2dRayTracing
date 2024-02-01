@@ -1,4 +1,5 @@
 #include "include/SDL.h"
+#include "include/SDL2_gfxPrimitives.h"
 #include <cmath>
 
 //thanks to https://discourse.libsdl.org/t/query-how-do-you-draw-a-circle-in-sdl2-sdl2/33379
