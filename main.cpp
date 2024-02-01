@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
     SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
-    SDL_RenderDrawCircle(renderer, 320,240,50);
+    SDL_RenderDrawCircle(renderer, 320,240,100);
     SDL_RenderPresent(renderer);
     SDL_Delay(3000);
 
