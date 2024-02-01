@@ -1,5 +1,4 @@
 #include "include/SDL.h"
-#include "include/SDL2_gfxPrimitives.h"
 #include <cmath>
 
 //thanks to https://discourse.libsdl.org/t/query-how-do-you-draw-a-circle-in-sdl2-sdl2/33379
@@ -12,7 +11,6 @@ int main(int argc, char *argv[])
 
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
     SDL_RenderClear(renderer);
-    circleRGBA(renderer,320,240,5,0,255,0,255);
     SDL_RenderPresent(renderer);
     SDL_Delay(3000);
 
