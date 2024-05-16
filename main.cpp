@@ -1,6 +1,7 @@
 #include "include/SDL.h"
-#include <cmath>
 #include "include/SDL2_gfxPrimitives.h"
+#include <cmath>
+
 
 int main(int argc, char *argv[])
 {
