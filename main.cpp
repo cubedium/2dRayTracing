@@ -1,4 +1,4 @@
-#include "include/SDL.h"
+#include "include/SDL2/SDL.h"
 #include "include/SDL2_gfxPrimitives.h"
 #include <cmath>
 
